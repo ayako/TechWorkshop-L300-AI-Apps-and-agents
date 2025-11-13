@@ -28,6 +28,8 @@ phi_4_api_key=""
 phi_4_api_version="2024-05-01-preview"
 
 # Storage account credentials
+# NOTE: blob_connection_string is now optional - the app will use Managed Identity in Azure App Service
+# For local development, either set blob_connection_string OR ensure you're logged in with Azure CLI
 blob_connection_string=""
 storage_account_name=""
 storage_container_name="zava"
